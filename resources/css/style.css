@@ -24,7 +24,7 @@ span {
  /*LOGO*/
 .logo {
   display: flex;
-  align-items: center
+  align-items: center;
   flex-grow: 1;
   padding-left: 30px;
 }
@@ -37,13 +37,13 @@ span {
 
 .logo span {
   color: MediumAquamarine;
-  padding-top: 20px;
+  width: 50%;
 }
 /* NAV*/
 .nav {
   width: 60%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 nav span {
@@ -56,11 +56,43 @@ a {
   color: black;
 }
 
+p {
+  display: block;
+}
+/* Section dividers*/
 .main {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  /*border: 2px solid black;*/
+}
+/* LARGE BOX CONTENT*/
+.large {
+  width: 630px;
+}
+
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
 }
 
 /*Basic features*/
 body {
   color: black;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
 }
