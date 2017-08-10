@@ -88,13 +88,13 @@ p {
 
 .fall-cancelled .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  width: 630px;
+  width: 300px;
   margin-top:0;
 }
 
 .memory-loss .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-  width: 630px;
+  width: 300px;
   margin-top: 0;
 }
 /*MEDIUM box details*/
@@ -137,8 +137,16 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
 
 /*Basic features*/
 body {
