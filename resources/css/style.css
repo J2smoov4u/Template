@@ -83,7 +83,7 @@ p {
   width: 630px;
   margin-top:0;
   font-size: 40px;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .fall-cancelled .image-content {
@@ -134,7 +134,7 @@ h2 {
 .image-content {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -142,6 +142,7 @@ h2 {
   font-size: 30px;
   color: white;
   text-align: center;
+
 }
 
 .image-content span {
